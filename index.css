@@ -190,11 +190,11 @@ body {
 }
 
 *[data-aos=fade-up] {
-    transform: translate3d(0, 5rem, 0)
+    transform: translate3d(0, 6rem, 0)
 }
 
 .btn-primary-inner {
-    transition: transform .4s var(--easeOutQuart)
+    transition: transform .6s var(--easeOutQuart)
 }
 
 .btn-primary-inner:hover {
