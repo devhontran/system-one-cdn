@@ -1,6 +1,4 @@
 :root {
-    --font-base: "Inter", sans-serif;
-    --dark-100: #131316;
     --easeOutQuart: cubic-bezier(.165, .84, .44, 1)
 }
 
@@ -177,4 +175,37 @@ body {
 
 .footer {
     background: black
+}
+
+.landing-book {
+    background-attachment: fixed;
+    background-position: top
+}
+
+.ic-20 svg,
+.ic-16 svg,
+.ic-12 svg {
+    width: 100%;
+    height: auto
+}
+
+*[data-aos=fade-up] {
+    transform: translate3d(0, 5rem, 0)
+}
+
+.btn-primary-inner {
+    transition: transform .4s var(--easeOutQuart)
+}
+
+.btn-primary-inner:hover {
+    transform: translate(5.8rem)
+}
+
+.landing-book-content-localtion {
+    transition: all .6s var(--easeOutQuart)
+}
+
+.landing-book-content-localtion:hover {
+    color: var(--white);
+    background: var(--primary)
 }
